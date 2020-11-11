@@ -34,7 +34,7 @@ class IndexPost extends React.Component {
                     <h2>{item.node.name}</h2>
                     <div className="row">
                       <div className="col-sm-4 align-self-center">
-                        <span className="price">${item.node.price}</span>
+                        <span className="price">£{item.node.price}</span>
                       </div>
                       <div className="col-sm-8 text-right align-self-center">
                         <a

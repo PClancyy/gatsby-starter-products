@@ -4,7 +4,7 @@ import React from "react"
 import "../css/font-awesome.css"
 import "bootstrap/dist/css/bootstrap.css"
 import "../css/style.css"
-import logo from "../images/oneshopper-logo.png"
+import pachaLogo from "../images/pachaLogoMain.jpeg"
 
 
 
@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
     <div className="container">
       <div className="row">
         <div className="col-sm-12 col-md-4 align-self-center">
-          <Link className="header-logo" to="/"><img src={logo} alt="OneShopper logo"></img></Link>
+          <Link className="header-logo" to="/"><img src={pachaLogo} alt="Pacha White Logo"></img></Link>
         </div>
         <div className="col-sm-12 col-md-8 align-self-center">
           <nav>
@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
             </ul>
             <div className="header-cart">
               <Link className="Header__summary snipcart-summary snipcart-checkout" to="#">
-                <i className="fas fa-cart-plus"></i>
+                <i className="fas fa-shopping-bag"></i>
               </Link>
             </div>
           </nav>
