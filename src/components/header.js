@@ -4,7 +4,7 @@ import React from "react"
 import "../css/font-awesome.css"
 import "bootstrap/dist/css/bootstrap.css"
 import "../css/style.css"
-import pachaLogo from "../images/pachaLogoMain.jpeg"
+import pachaLogo from "../images/pachaLogoMain.jpg"
 
 
 
