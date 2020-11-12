@@ -10,8 +10,10 @@ class About extends React.Component {
                 <div className="site-About">
                     <div className="container">
                     <div className="row">
-                        <div className="col-sm-12">
-
+                        <div className="col-sm-12 col-md-4 align-self-center">
+                        <h1>Established November 2020</h1>
+                        <p>Featuring all of your favourite PACHAWHITEAESTHETIC.GLA products</p>
+                         <p>New stock updated regularly and limited time deals ❤</p>
                         </div>
                         </div>
                     </div>
