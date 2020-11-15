@@ -3,9 +3,9 @@ dotenv.config();
 
 module.exports = {
   siteMetadata: {
-    title: `OneShopper`,
-    description: `A starter for a e-commerce powered by Gatsby and Flotiq`,
-    author: `@flotiq`,
+    title: `PACHAWHITEAESTHETICS`,
+    description: `PachaWhite online store`,
+    author: `@CWTWEBDESIGN`,
   },
   plugins: [{
       "resolve": "gatsby-source-flotiq",
@@ -35,7 +35,7 @@ module.exports = {
         background_color: `#4DB58E`,
         theme_color: `#4DB58E`,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`,
+        icon: `src/images/pachaLogoMain.jpg`,
       },
     },
     {
